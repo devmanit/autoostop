@@ -1,0 +1,34 @@
+{
+	"name": "croogo/app",
+	"description": "Croogo skeleton app",
+	"homepage": "http://github.com/croogo/app",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Fahad Ibnay Heylaal",
+			"email": "contact@fahad19.com",
+			"homepage": "http://fahad19.com"
+		},
+		{
+			"name": "Rachman Chavik",
+			"email": "contact@xintesa.com",
+			"homepage": "http://xintesa.com"
+		},
+		{
+			"name": "Kyle Robinson Young",
+			"email": "kyle@dontkry.com",
+			"homepage": "http://dontkry.com"
+		}
+	],
+	"config": {
+		"vendor-dir": "Vendor"
+	},
+	"require": {
+		"php": ">=5.3.10",
+		"croogo/croogo": "~2.1",
+		"cakephp/cakephp": "~2.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*@dev"
+	}
+}

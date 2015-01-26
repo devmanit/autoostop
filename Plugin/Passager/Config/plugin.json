@@ -1,0 +1,16 @@
+{
+"name": "Passager",
+"description": "Passager Plugin",
+ 
+"author": "Segmalog.com",
+"authorEmail": "ayoub.zayoud@segmalog.com",
+"authorUrl": "http://segmalog.com",
+ 
+"dependencies": {
+"plugins": [
+"acl",
+"extensions",
+"blocks"
+]
+}
+}

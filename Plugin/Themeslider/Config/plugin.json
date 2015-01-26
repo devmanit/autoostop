@@ -1,0 +1,15 @@
+{
+"name": "Themeslider",
+"description": "Home slider",
+ 
+"author": "Segmalog",
+"authorEmail": "info@segmalog.com	",
+"authorUrl": "http://segmalog.com",
+ 
+"dependencies": {
+"plugins": [
+"acl",
+"extensions"
+]
+}
+}

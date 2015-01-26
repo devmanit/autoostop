@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 5, 2014, 4:16:31 PM
+    Author     : Segma
+*/
+
+span.stars-small{width:52px;display:block;background:url(stars-small.png) no-repeat left bottom;height:15px;float:left;margin:2px 5px 0 0;}span.stars-small span{width:100%;display:block;background:url(stars-small.png) no-repeat left top;height:15px;margin:0!important;float:left;} 
+  #overlay_form{
+  position: absolute;
+  border: 5px solid gray;
+  padding: 2px 24px 2px 2px;
+  background: white;
+  left:263px;
+  top:145px;
+  /*width: 321px;*/
+  /*height: 400px;*/
+  
+  }
+  #pop{
+  display: block;
+  border: 1px solid gray;
+  width: 65px;
+  text-align: center;
+  padding: 6px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0 auto;
+  }
+  
+  .error{
+padding: 8px 35px 8px 14px;
+
+
+color: #b94a48;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+background-color: #fcf8e3;
+background-color: #f2dede;
+border: 1px solid #fbeed5;
+border-color: #eed3d7;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+
+  }
+  .success{
+      padding: 8px 35px 8px 14px;
+
+
+color: #468847;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+background-color: #fcf8e3;
+background-color: #dff0d8;
+border: 1px solid #fbeed5;
+border-color: #d6e9c6;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+  }

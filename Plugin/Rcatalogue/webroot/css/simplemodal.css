@@ -1,0 +1,399 @@
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	#main-nav  ul li.menu-item-home a{
+		background-image: url(../img/home%402x.png)!important;
+		background-size: 30px 78px;
+	}
+	span.stars-large, span.stars-large span{
+		background-image:url(../img/stars-large%402x.png);
+		background-size: 98px 44px;
+	}
+	span.stars-small,span.stars-small span{
+		background-image:url(../img/stars-small%402x.png);
+		background-size: 52px 30px;
+	}
+}/* Normal styles for the modal */
+#modal {
+	
+	
+	opacity: 0;
+	position:absolute;
+	top:-10%;
+        left:25%;
+	visibility: hidden;
+	width:50%;
+	box-shadow:0 3px 7px rgba(0,0,0,.25);
+	box-sizing:border-box;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+	/* Make the modal appear when targeted */
+	#modal:target {
+		opacity: 1;
+		margin-top: 10px;
+		visibility: visible;
+	}
+#modal .header,#modal .footer {
+	border-bottom: 1px solid #e7e7e7;
+	border-radius: 5px 5px 0 0;
+      
+}
+	#modal .footer {
+		border:none;
+		border-top: 1px solid #e7e7e7;
+		border-radius: 0 0 5px 5px;
+	}
+#modal h2 {
+	margin:0;
+}
+#modal .btn {
+	float:right;
+}
+#modal .copy,#modal .header, #modal .footer {
+	padding:15px;
+        overflow: auto;
+}
+.modal-content {
+	background: #f7f7f7;
+	position: relative;
+	z-index: 20;
+	border-radius:5px;
+}
+#modal .copy {
+	background: #fff;
+}
+
+#modal .overlay {
+	background-color: #000;
+	background: rgba(0,0,0,.5);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+#modal .btn {
+	background-color: greenyellow;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(246, 246, 246)), to(rgb(225, 225, 225)));
+	background-image: -webkit-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: -moz-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: -o-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: -ms-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f6f6f6', EndColorStr='#e1e1e1');
+	border: 1px solid #ccc;
+	color:#555;
+	display:inline-block;
+	padding:5px 15px;
+	text-decoration:none;
+	text-shadow:0 2px rgba(255,255,255,.9);
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	box-shadow:0 1px rgba(0,0,0,.35);
+	-moz-box-shadow:0 1px rgba(0,0,0,.35);
+	-webkit-box-shadow:0 1px rgba(0,0,0,.35);
+}
+	#modal .btn:active {
+		background-color: #f6f6f6;
+		background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(246, 246, 246)), to(rgb(225, 225, 225)));
+		background-image: -webkit-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: -moz-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: -o-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: -ms-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f6f6f6', EndColorStr='#e1e1e1');
+	}
+	#modal .btn.go {
+		background-color: #3dda38;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(61, 218, 56)), to(rgb(39, 187, 63)));
+		background-image: -webkit-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: -moz-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: -o-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: -ms-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,EndColorStr='#3dda38', StartColorStr='#27bb3f');
+		border: 1px solid #21ac1c;
+		color:#fff;
+		text-shadow:0 -1px rgba(0,0,0,.4);
+	}
+		#modal .btn.go:active {
+			background-color: #3dda38;
+			background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(61, 218, 56)), to(rgb(39, 187, 63)));
+			background-image: -webkit-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: -moz-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: -o-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: -ms-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,EndColorStr='#3dda38', StartColorStr='#27bb3f');
+		}
+/*
+Modal car
+*/
+/* Normal styles for the modal */
+#modalcar {
+	
+	
+	opacity: 0;
+	position:absolute;
+	top:-10%;
+        left:25%;
+	visibility: hidden;
+	width:50%;
+	box-shadow:0 3px 7px rgba(0,0,0,.25);
+	box-sizing:border-box;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+	/* Make the modal appear when targeted */
+	#modalcar:target {
+		opacity: 1;
+		margin-top: 10px;
+		visibility: visible;
+	}
+#modalcar .header,#modalcar .footer {
+	border-bottom: 1px solid #e7e7e7;
+	border-radius: 5px 5px 0 0;
+      
+}
+	#modalcar .footer {
+		border:none;
+		border-top: 1px solid #e7e7e7;
+		border-radius: 0 0 5px 5px;
+	}
+#modalcar h2 {
+	margin:0;
+}
+#modalcar .btn {
+	float:right;
+}
+#modalcar .copy,#modalcar .header, #modalcar .footer {
+	padding:15px;
+        overflow: auto;
+}
+.modal-content {
+	background: #f7f7f7;
+	position: relative;
+	z-index: 20;
+	border-radius:5px;
+}
+#modalcar .copy {
+	background: #fff;
+}
+
+#modalcar .overlay {
+	background-color: #000;
+	background: rgba(0,0,0,.5);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+#modalcar .btn {
+	background-color: greenyellow;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(246, 246, 246)), to(rgb(225, 225, 225)));
+	background-image: -webkit-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: -moz-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: -o-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: -ms-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f6f6f6', EndColorStr='#e1e1e1');
+	border: 1px solid #ccc;
+	color:#555;
+	display:inline-block;
+	padding:5px 15px;
+	text-decoration:none;
+	text-shadow:0 2px rgba(255,255,255,.9);
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	box-shadow:0 1px rgba(0,0,0,.35);
+	-moz-box-shadow:0 1px rgba(0,0,0,.35);
+	-webkit-box-shadow:0 1px rgba(0,0,0,.35);
+}
+	#modalcar .btn:active {
+		background-color: #f6f6f6;
+		background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(246, 246, 246)), to(rgb(225, 225, 225)));
+		background-image: -webkit-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: -moz-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: -o-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: -ms-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f6f6f6', EndColorStr='#e1e1e1');
+	}
+	#modalcar .btn.go {
+		background-color: #3dda38;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(61, 218, 56)), to(rgb(39, 187, 63)));
+		background-image: -webkit-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: -moz-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: -o-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: -ms-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,EndColorStr='#3dda38', StartColorStr='#27bb3f');
+		border: 1px solid #21ac1c;
+		color:#fff;
+		text-shadow:0 -1px rgba(0,0,0,.4);
+	}
+		#modalcar .btn.go:active {
+			background-color: #3dda38;
+			background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(61, 218, 56)), to(rgb(39, 187, 63)));
+			background-image: -webkit-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: -moz-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: -o-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: -ms-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,EndColorStr='#3dda38', StartColorStr='#27bb3f');
+		}
+                .error{
+                   padding: 8px 35px 8px 14px;
+                    color: #b94a48;
+                    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+                    background-color: #fcf8e3;
+                    background-color: #f2dede;
+                    border: 1px solid #fbeed5;
+                    border-color: #eed3d7;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                }
+                
+                /*
+Modal Conducteur
+*/
+/* Normal styles for the modal */
+
+.modaluser {
+	
+	opacity: 0;
+	position:absolute;
+	top:-10%;
+        left:25%;
+	visibility: hidden;
+	width:50%;
+	box-shadow:0 3px 7px rgba(0,0,0,.25);
+	box-sizing:border-box;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+	/* Make the modal appear when targeted */
+	.modaluser:target {
+		opacity: 1;
+		margin-top: 10px;
+		visibility: visible;
+	}
+.modaluser .header,.modaluser .footer {
+	border-bottom: 1px solid #e7e7e7;
+	border-radius: 5px 5px 0 0;
+      
+}
+	.modaluser .footer {
+		border:none;
+		border-top: 1px solid #e7e7e7;
+		border-radius: 0 0 5px 5px;
+	}
+.modaluser h2 {
+	margin:0;
+}
+.modaluser .btn {
+	float:right;
+}
+.modaluser .copy,.modaluser .header, .modaluser .footer {
+	padding:15px;
+        overflow: auto;
+}
+.modal-content {
+	background: #f7f7f7;
+	position: relative;
+	z-index: 20;
+	border-radius:5px;
+}
+.modaluser .copy {
+	background: #fff;
+}
+
+.modaluser .overlay {
+	background-color: #000;
+	background: rgba(0,0,0,.5);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+/*
+.modaluser .btn {
+	//background-color: greenyellow;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(246, 246, 246)), to(rgb(225, 225, 225)));
+	background-image: -webkit-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: -moz-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: -o-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: -ms-linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	background-image: linear-gradient(top, rgb(246, 246, 246), rgb(225, 225, 225));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f6f6f6', EndColorStr='#e1e1e1');
+	border: 1px solid #ccc;
+	color:#555;
+	display:inline-block;
+	padding:5px 15px;
+	text-decoration:none;
+	text-shadow:0 2px rgba(255,255,255,.9);
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	box-shadow:0 1px rgba(0,0,0,.35);
+	-moz-box-shadow:0 1px rgba(0,0,0,.35);
+	-webkit-box-shadow:0 1px rgba(0,0,0,.35);
+}
+	.modaluser .btn:active {
+		background-color: #f6f6f6;
+		background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(246, 246, 246)), to(rgb(225, 225, 225)));
+		background-image: -webkit-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: -moz-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: -o-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: -ms-linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		background-image: linear-gradient(bottom, rgb(246, 246, 246), rgb(225, 225, 225));
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f6f6f6', EndColorStr='#e1e1e1');
+	}
+	.modaluser .btn.go {
+		background-color: #3dda38;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(61, 218, 56)), to(rgb(39, 187, 63)));
+		background-image: -webkit-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: -moz-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: -o-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: -ms-linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		background-image: linear-gradient(top, rgb(61, 218, 56), rgb(39, 187, 63));
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,EndColorStr='#3dda38', StartColorStr='#27bb3f');
+		border: 1px solid #21ac1c;
+		color:#fff;
+		text-shadow:0 -1px rgba(0,0,0,.4);
+	}
+		.modaluser .btn.go:active {
+			background-color: #3dda38;
+			background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(61, 218, 56)), to(rgb(39, 187, 63)));
+			background-image: -webkit-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: -moz-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: -o-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: -ms-linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			background-image: linear-gradient(bottom, rgb(61, 218, 56), rgb(39, 187, 63));
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,EndColorStr='#3dda38', StartColorStr='#27bb3f');
+		}*/
+.imguser {
+padding-left: 20%;
+padding-top: 10%;
+
+}
+
+/*drop down*/
+.modaluser .btn-group ul
+{
+    position : relative !important;
+    padding:10px !important;
+}
+.modaluser .dropdown-menu li{display:block;padding:3px 20px;clear:both;font-weight:normal;line-height:20px;color:#333;white-space:nowrap} .modaluser .dropdown-menu li:hover,.modaluser .dropdown-menu li:focus{color:#fff;text-decoration:none;background-color:#0081c2;background-image:-moz-linear-gradient(top,#08c,#0077b3);background-image:-webkit-gradient(linear,0 0,0 100%,from(#08c),to(#0077b3));background-image:-webkit-linear-gradient(top,#08c,#0077b3);background-image:-o-linear-gradient(top,#08c,#0077b3);background-image:linear-gradient(to bottom,#08c,#0077b3);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0077b3',GradientType=0)}
+    
